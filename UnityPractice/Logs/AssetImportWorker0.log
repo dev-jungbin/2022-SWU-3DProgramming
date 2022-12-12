@@ -1,0 +1,1395 @@
+Unity Editor version:    2020.3.29f1 (2ff179115da0)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/madilyn/Documents/GitHub/2022-SWU-3DProgramming/UnityPractice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50116
+Successfully changed project path to: /Users/madilyn/Documents/GitHub/2022-SWU-3DProgramming/UnityPractice
+/Users/madilyn/Documents/GitHub/2022-SWU-3DProgramming/UnityPractice
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/madilyn/Documents/GitHub/2022-SWU-3DProgramming/UnityPractice/Assets
+GfxDevice: creating device client; threaded=0
+2022-12-05 12:38:48.906 Unity[22948:130139] (null) preferred device: Apple M1 Pro (high power)
+2022-12-05 12:38:48.906 Unity[22948:130139] Metal devices available: 1
+2022-12-05 12:38:48.906 Unity[22948:130139] 0: Apple M1 Pro (high power)
+2022-12-05 12:38:48.906 Unity[22948:130139] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000618 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1305ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1865ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1074ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000574 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000561 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2022-12-05 12:38:53.701 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019e26f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-05 12:38:53.704 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019e2840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 2.831792 ms (FindLiveObjects: 0.086209 ms CreateObjectMapping: 0.038541 ms MarkObjects: 2.235417 ms  DeleteObjects: 0.470750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Ergin3d/Santa Claus/Materials/Santa Beard and Eyes.mat
+  artifactKey: Guid(a51902b2a3bbdd245a5f5b7ea0f863b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Materials/Santa Beard and Eyes.mat using Guid(a51902b2a3bbdd245a5f5b7ea0f863b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe88b62c292511827749215eb23be586') in 1.235391 seconds 
+  Import took 1.239318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Ergin3d/Santa Claus/Materials/Santa Cloth.mat
+  artifactKey: Guid(ae48395144a085145b15a95cc1658ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Materials/Santa Cloth.mat using Guid(ae48395144a085145b15a95cc1658ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6445b47d05a6b485a538daa4275bed') in 0.405621 seconds 
+  Import took 0.408808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab
+  artifactKey: Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab using Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcd21ab964453a22c4442719cb68bc5') in 0.219512 seconds 
+  Import took 0.225303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Ergin3d/Santa Claus/Materials/Santa Face and Hands.mat
+  artifactKey: Guid(cdfb5eb04b339cc45afb7e1618dc8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Materials/Santa Face and Hands.mat using Guid(cdfb5eb04b339cc45afb7e1618dc8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4722da9eb94ceac4d599fb0e10e153c7') in 0.032016 seconds 
+  Import took 0.035131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Ergin3d/Santa Claus/Mesh/SantaClaus.FBX
+  artifactKey: Guid(4e3821cb867a87d4bbbce43065a5218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Mesh/SantaClaus.FBX using Guid(4e3821cb867a87d4bbbce43065a5218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb75a8d60906316f4df8d562899e10') in 0.234619 seconds 
+  Import took 0.240360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.883249 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef
+  artifactKey: Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef using Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b6ef3f135b63af18b6fbbe340ded76') in 0.067434 seconds 
+  Import took 0.072744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.701884 seconds.
+  path: Assets/Ergin3d/Santa Claus/Textures/Santa Cloth Albedo.png
+  artifactKey: Guid(f47d8739b252e914aab603a474bf4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Textures/Santa Cloth Albedo.png using Guid(f47d8739b252e914aab603a474bf4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d6f2a86e64c9fc027d78d16bb9d786') in 0.472546 seconds 
+  Import took 0.478773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Ergin3d/Santa Claus/Textures/Santa Hair and Eye.png
+  artifactKey: Guid(c85d8d58e0e20804087a799baeba5eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Textures/Santa Hair and Eye.png using Guid(c85d8d58e0e20804087a799baeba5eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3260e42a30ab2aa77e0dc1c43cedd5c3') in 0.011778 seconds 
+  Import took 0.013938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Ergin3d/Santa Claus/Textures/Santa Face Albedo.png
+  artifactKey: Guid(9d86614d62a57c641ba040f4b9e03d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Textures/Santa Face Albedo.png using Guid(9d86614d62a57c641ba040f4b9e03d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85d01437bba0dc0a116f8c1582edfc2') in 0.015020 seconds 
+  Import took 0.017864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Ergin3d/Santa Claus/Textures/Santa Face Normal.png
+  artifactKey: Guid(d5a8e5099dfc71d42a4b74b4f64414a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Textures/Santa Face Normal.png using Guid(d5a8e5099dfc71d42a4b74b4f64414a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9a0a67c34d4e74a58a4de3b4fec7c8') in 0.068174 seconds 
+  Import took 0.071321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Ergin3d/Santa Claus/Textures/Santa Cloth Normal.png
+  artifactKey: Guid(ee6d5f8ae02597248a33b953c3961c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Textures/Santa Cloth Normal.png using Guid(ee6d5f8ae02597248a33b953c3961c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92435516d77ac082f0df658a453655cf') in 0.025554 seconds 
+  Import took 0.028408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.709212 seconds.
+  path: Assets/Free Voxel Christmas Pack/Materials/Christmas Material.mat
+  artifactKey: Guid(3670ec4a4f2303648b3941ef0f515107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Materials/Christmas Material.mat using Guid(3670ec4a4f2303648b3941ef0f515107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c19b300507e86b07653b2a26880b99') in 0.018950 seconds 
+  Import took 0.021895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.925872 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Christmas_Trees
+  artifactKey: Guid(8f7cea4a60f839b438e8c3576108520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Christmas_Trees using Guid(8f7cea4a60f839b438e8c3576108520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7b60a60df49583dd781291066f8b3d') in 0.000903 seconds 
+  Import took 0.003424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395279 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_1.obj
+  artifactKey: Guid(c74c6694c1e0fc340ab7bdbb374409a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_1.obj using Guid(c74c6694c1e0fc340ab7bdbb374409a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2817e366ef6a47bab61bde47cfdfd970') in 0.846253 seconds 
+  Import took 0.851953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_2.obj
+  artifactKey: Guid(092cefab4c9b32546a498f5762686c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_2.obj using Guid(092cefab4c9b32546a498f5762686c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1548d8ddcfe95203d110aebf8ce18e2d') in 0.022378 seconds 
+  Import took 0.024860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_3.obj
+  artifactKey: Guid(de23f2924f41df24197c43046225a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Christmas_Trees/Christmas tree_3.obj using Guid(de23f2924f41df24197c43046225a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af5561c2c1d479bf01f448aee538954') in 0.024901 seconds 
+  Import took 0.027091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.571851 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Environment/Bench_1.obj
+  artifactKey: Guid(3466e65395b05444c815fab366ccef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Environment/Bench_1.obj using Guid(3466e65395b05444c815fab366ccef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88834222c55b1b943756259d681da3a') in 0.024067 seconds 
+  Import took 0.027099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Environment/Bench_2.obj
+  artifactKey: Guid(243fc243c0f51d74083e7548e451840b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Environment/Bench_2.obj using Guid(243fc243c0f51d74083e7548e451840b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541e100e2f44b2cc8da890c28e1b4be3') in 0.027930 seconds 
+  Import took 0.030041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Environment/Bridge.obj
+  artifactKey: Guid(20d09c195d4e9e14ba7bf0fc211d56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Environment/Bridge.obj using Guid(20d09c195d4e9e14ba7bf0fc211d56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ae6c9d7d6b6f9b29c09359322083f1') in 0.022524 seconds 
+  Import took 0.024987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440125 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_1.obj
+  artifactKey: Guid(5f9aab5c954f1c94a94777aefe5d5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_1.obj using Guid(5f9aab5c954f1c94a94777aefe5d5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d362103f87b2da963f842c30b95196a') in 0.026176 seconds 
+  Import took 0.029402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_3.obj
+  artifactKey: Guid(ab8e519ffbfcaa34db6c7bbdf8b28f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_3.obj using Guid(ab8e519ffbfcaa34db6c7bbdf8b28f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28298a9c085653be79f092921966b12') in 0.022669 seconds 
+  Import took 0.025149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_2.obj
+  artifactKey: Guid(85041e9435f29c742ae1deb4fbe9b619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_2.obj using Guid(85041e9435f29c742ae1deb4fbe9b619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de039f2483c61df4082677b69f9d544d') in 0.025042 seconds 
+  Import took 0.027317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186922 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Snowmans/Caramel_Cane.obj
+  artifactKey: Guid(2de5febcf1d97a54f8a23805c7a7b8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Snowmans/Caramel_Cane.obj using Guid(2de5febcf1d97a54f8a23805c7a7b8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b8f7f2e416302f08f4179e0b02afc8') in 0.027889 seconds 
+  Import took 0.031520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Snowmans/Snowman_Body_2.obj
+  artifactKey: Guid(9ebe045abb2fe114db2643db4c1c8c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Snowmans/Snowman_Body_2.obj using Guid(9ebe045abb2fe114db2643db4c1c8c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbc9885e5b025cb5484bb49e418e771') in 0.022774 seconds 
+  Import took 0.025475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Snowmans/Snowman_Body_1.obj
+  artifactKey: Guid(eedd74588f3acdc499ebdb7f3d9e9d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Snowmans/Snowman_Body_1.obj using Guid(eedd74588f3acdc499ebdb7f3d9e9d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a4bffd06017466f9475d49c8cb2733') in 0.023627 seconds 
+  Import took 0.026146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.960609 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Environment/Bench_1.mtl
+  artifactKey: Guid(3e88ba3d590ba2447b3414552560020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Environment/Bench_1.mtl using Guid(3e88ba3d590ba2447b3414552560020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b8c9cde6e51df62a377e6841266b57') in 0.083982 seconds 
+  Import took 0.089043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.694171 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_1.prefab
+  artifactKey: Guid(2fa5038357e0ef04d9d96a0a86bc26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_1.prefab using Guid(2fa5038357e0ef04d9d96a0a86bc26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33295fed5314ca7c1c6c0e217567be36') in 0.014753 seconds 
+  Import took 0.018967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_4.prefab
+  artifactKey: Guid(24e679e3308dc084b966ff8decc0eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_4.prefab using Guid(24e679e3308dc084b966ff8decc0eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d4634d7bad5bc2681cd15ff862d4e7') in 0.009429 seconds 
+  Import took 0.012081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_2.prefab
+  artifactKey: Guid(4097080ed2ff4d94fa6c29fb2db01006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_2.prefab using Guid(4097080ed2ff4d94fa6c29fb2db01006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ef12b0247f107e840f0bb8659334e') in 0.013017 seconds 
+  Import took 0.015373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_3.prefab
+  artifactKey: Guid(fe4a39498efe61c47937f5d418f0c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees/Christmas tree_3.prefab using Guid(fe4a39498efe61c47937f5d418f0c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa538b93c2ba34697a0f88e70db32a1e') in 0.008600 seconds 
+  Import took 0.011090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.190154 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_1.prefab
+  artifactKey: Guid(c4cb4c9360b9f1e44815335dac31e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_1.prefab using Guid(c4cb4c9360b9f1e44815335dac31e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fd4672d86337cccd750409c4a21f1f') in 0.014437 seconds 
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Garland_1.prefab
+  artifactKey: Guid(ce6767e6b423a0e4283f6ca251c9632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Garland_1.prefab using Guid(ce6767e6b423a0e4283f6ca251c9632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf253f7d48d1a1411976a2ad69231fc') in 0.009272 seconds 
+  Import took 0.012156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_2.prefab
+  artifactKey: Guid(b93d775b381899840a4eb3175c30acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_2.prefab using Guid(b93d775b381899840a4eb3175c30acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4953c3e341af9fb675e08e8e18211d7') in 0.011156 seconds 
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bridge.prefab
+  artifactKey: Guid(bbd9240fa6d8bee4d88e54776b993cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bridge.prefab using Guid(bbd9240fa6d8bee4d88e54776b993cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74770b9679647f76295b6b12d2fde1f0') in 0.009773 seconds 
+  Import took 0.012026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_1.prefab
+  artifactKey: Guid(099f649beac5a2740bc45374886b28cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_1.prefab using Guid(099f649beac5a2740bc45374886b28cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cd3e009198bb259226e2803a107e24') in 0.011295 seconds 
+  Import took 0.013779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Garland_2.prefab
+  artifactKey: Guid(6771fce0fbf2c594c9e7b4c27dfd98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Garland_2.prefab using Guid(6771fce0fbf2c594c9e7b4c27dfd98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea6f00d470804f2a6086a94eddee95d') in 0.008214 seconds 
+  Import took 0.010404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_2.prefab
+  artifactKey: Guid(9f005e2bebb00a849984f341f487b198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_2.prefab using Guid(9f005e2bebb00a849984f341f487b198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25890d61bb0f08f156276df03ca1cff7') in 0.012134 seconds 
+  Import took 0.014434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.707849 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_1.prefab
+  artifactKey: Guid(2588b25e4e546fa429c471e9af7b9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_1.prefab using Guid(2588b25e4e546fa429c471e9af7b9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caacf2dfc967c86f9e8906b68157f3ba') in 0.013546 seconds 
+  Import took 0.017201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_1.prefab
+  artifactKey: Guid(dd4e2812298b403418a9d09c4096e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_1.prefab using Guid(dd4e2812298b403418a9d09c4096e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a375fb7c812b92d6dada9b42acc4d') in 0.009420 seconds 
+  Import took 0.011957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_5.prefab
+  artifactKey: Guid(93ba7ac6fba187547a4035f770d6260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_5.prefab using Guid(93ba7ac6fba187547a4035f770d6260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28091f5cf31d9d5f7100c260480b5abf') in 0.008788 seconds 
+  Import took 0.010990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_4.prefab
+  artifactKey: Guid(769b54b5a45f25640a5143a203ecf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_4.prefab using Guid(769b54b5a45f25640a5143a203ecf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6f33784406432e16bd3d94b62e929') in 0.009209 seconds 
+  Import took 0.011523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_2.prefab
+  artifactKey: Guid(f6646b6910896fc42a5b78650c5f7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_2.prefab using Guid(f6646b6910896fc42a5b78650c5f7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d312a0c2f9c8dc16faf63505c9c144') in 0.010013 seconds 
+  Import took 0.012307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_3.prefab
+  artifactKey: Guid(6835dec70fb82c34eaf49b4af493e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_3.prefab using Guid(6835dec70fb82c34eaf49b4af493e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6b593c55ce78325a374b6586677aa3') in 0.008938 seconds 
+  Import took 0.011184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_2.prefab
+  artifactKey: Guid(d8c6b34009e19b54b969c5af7d8b2768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_2.prefab using Guid(d8c6b34009e19b54b969c5af7d8b2768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5359b1e089e81665165aa12bf0d64a1d') in 0.009558 seconds 
+  Import took 0.012015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.863692 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Caramel_Cane.prefab
+  artifactKey: Guid(07130242b951ca04fb7f023a7924ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Caramel_Cane.prefab using Guid(07130242b951ca04fb7f023a7924ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cadf5b55f191abc0b3282a22586797') in 0.017372 seconds 
+  Import took 0.022177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_2.prefab
+  artifactKey: Guid(55308027ed92260409cdea82e406ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_2.prefab using Guid(55308027ed92260409cdea82e406ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb81123bfe3cb345cca5f8afcb54c1c') in 0.011328 seconds 
+  Import took 0.014167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_1.prefab
+  artifactKey: Guid(a95a482d4a0de784fad11386ccbff989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_1.prefab using Guid(a95a482d4a0de784fad11386ccbff989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f1a4af82c03019843d4414f0f2c264') in 0.008446 seconds 
+  Import took 0.010855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_3.prefab
+  artifactKey: Guid(47daea3ca5dd4414ba14034455c56624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_3.prefab using Guid(47daea3ca5dd4414ba14034455c56624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f5dae0a5245f7299a240f92e70dd9e') in 0.008673 seconds 
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_4.prefab
+  artifactKey: Guid(52f841b63e5e82d4f8c9f20bdc9c774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_4.prefab using Guid(52f841b63e5e82d4f8c9f20bdc9c774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c043e4fb7870c5134599fd1a2584235d') in 0.008752 seconds 
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_2.prefab
+  artifactKey: Guid(cc8550a01372d0a498308bf04c40473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_2.prefab using Guid(cc8550a01372d0a498308bf04c40473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f157f44be312014e8e28409a0c8b680d') in 0.010156 seconds 
+  Import took 0.012533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_1.prefab
+  artifactKey: Guid(f230c285117184f49ace2b862999a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Body_1.prefab using Guid(f230c285117184f49ace2b862999a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867044c3d0bef6478b54c2680c4d1b7b') in 0.008050 seconds 
+  Import took 0.010241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733529 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_3.prefab
+  artifactKey: Guid(46eac2874d7559a4b87f72fb1f0d3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hand_3.prefab using Guid(46eac2874d7559a4b87f72fb1f0d3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c370de439ddf3a745d490e30335198b') in 0.011915 seconds 
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_1.prefab
+  artifactKey: Guid(91d3c3d5cc16c6d4da0e6d4dc41c9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_1.prefab using Guid(91d3c3d5cc16c6d4da0e6d4dc41c9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c665c7c94b9f13e3c051359f2fbe65d') in 0.009743 seconds 
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_2.prefab
+  artifactKey: Guid(38c1563daaa3dc545952377c066c7048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_2.prefab using Guid(38c1563daaa3dc545952377c066c7048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48439e87d08c99f984398e775537f8ac') in 0.008172 seconds 
+  Import took 0.010510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006070 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_3.prefab
+  artifactKey: Guid(1a9520e7d5db8024987d5ce1ddba15a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Hat_3.prefab using Guid(1a9520e7d5db8024987d5ce1ddba15a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc0da482b1fae6ab9d3184cbb6ec769') in 0.008209 seconds 
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005229 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_1.prefab
+  artifactKey: Guid(4ef1e23a0f47bb94a96cedec9629b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_1.prefab using Guid(4ef1e23a0f47bb94a96cedec9629b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b49b49661111a8711b4e4a766b2f71') in 0.008222 seconds 
+  Import took 0.010633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024508 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_2.prefab
+  artifactKey: Guid(e8ebea2b8f43ad945937972b0c0096d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_2.prefab using Guid(e8ebea2b8f43ad945937972b0c0096d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6561f9d5c00d3567e1bdce588fc9fbb') in 0.009961 seconds 
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069639 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_3.prefab
+  artifactKey: Guid(55d1c44f0e6d7584b9e33a1d320070cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_3.prefab using Guid(55d1c44f0e6d7584b9e33a1d320070cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52385192be05b82ee57366497af9b56a') in 0.008349 seconds 
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076082 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_4.prefab
+  artifactKey: Guid(014c67893fa3b364da90e948375892e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Snowmans/Snowman_Head_4.prefab using Guid(014c67893fa3b364da90e948375892e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83916731b3cddc0482dba39825de5e79') in 0.008149 seconds 
+  Import took 0.010496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603105 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_1.prefab
+  artifactKey: Guid(b9a17b66526821b408f774b3d999c87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_1.prefab using Guid(b9a17b66526821b408f774b3d999c87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aab1eca045fde580e41550a72842c4') in 0.013386 seconds 
+  Import took 0.016731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_3.prefab
+  artifactKey: Guid(d67c95ed7d165114c87671fd578d2a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_3.prefab using Guid(d67c95ed7d165114c87671fd578d2a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b43663eafe6893a95b9d939e4561da') in 0.010525 seconds 
+  Import took 0.013270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_4.prefab
+  artifactKey: Guid(6d4f3724cc2f9084c8131ad26f214615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_4.prefab using Guid(6d4f3724cc2f9084c8131ad26f214615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e407b2f070239022af995c32aa0f5486') in 0.009095 seconds 
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_2.prefab
+  artifactKey: Guid(13ce57c3d431a124aa4f6939d61d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_2.prefab using Guid(13ce57c3d431a124aa4f6939d61d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341537a4a226bc189e5a2be5c7de2993') in 0.009769 seconds 
+  Import took 0.012065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Street_Lamp.prefab
+  artifactKey: Guid(6c317703e2d71d44c92c332d67f2cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Street_Lamp.prefab using Guid(6c317703e2d71d44c92c332d67f2cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e16686cb8e7bd6e09f1f1132d915af') in 0.008002 seconds 
+  Import took 0.010225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.852646 seconds.
+  path: Assets/Free Voxel Christmas Pack/Textures/Christmas_Texture.png
+  artifactKey: Guid(c886ccf25a1baca43a63555429d69a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Textures/Christmas_Texture.png using Guid(c886ccf25a1baca43a63555429d69a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d42b684942ac2638ced95499704447f') in 0.009548 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.538015 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_4.obj
+  artifactKey: Guid(29c7977a10289d44085c9315747767a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_4.obj using Guid(29c7977a10289d44085c9315747767a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3fecfb46f01f9b9ca45aaa41b7474e') in 0.027542 seconds 
+  Import took 0.030459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_5.obj
+  artifactKey: Guid(20e2dad4712b29d4c98170cfeeeb9740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Big_Gift_5.obj using Guid(20e2dad4712b29d4c98170cfeeeb9740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a7276dcd24064a4e546fec132f129') in 0.024280 seconds 
+  Import took 0.026738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_1.obj
+  artifactKey: Guid(9c65857cb9cca324db75047fa9d55682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_1.obj using Guid(9c65857cb9cca324db75047fa9d55682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde7d1d2dc3ba5364612fff95660d5c5') in 0.024313 seconds 
+  Import took 0.026846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010940 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_2.obj
+  artifactKey: Guid(6544f7421bc23e441b6414686a02a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_2.obj using Guid(6544f7421bc23e441b6414686a02a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e286a6905d1d9a4d07933b1cde7eef24') in 0.023630 seconds 
+  Import took 0.026123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374455 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_3.obj
+  artifactKey: Guid(43195342dffffaf4c923eb010ecda78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_3.obj using Guid(43195342dffffaf4c923eb010ecda78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20643df2ca1645a11730736c1199e354') in 0.024848 seconds 
+  Import took 0.027556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026642 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_4.obj
+  artifactKey: Guid(e1f722c6c596d4a4ea0edd88b3e4f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_4.obj using Guid(e1f722c6c596d4a4ea0edd88b3e4f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab140d2ae434799db07c38ebb8dac78') in 0.024269 seconds 
+  Import took 0.026865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366287 seconds.
+  path: Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_5.obj
+  artifactKey: Guid(a856d7670c8146f4c865c7f77a0cecc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Models/Gifts/Small_Gift_5.obj using Guid(a856d7670c8146f4c865c7f77a0cecc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c807bfb51f639b12bde2d1a195700a') in 0.027461 seconds 
+  Import took 0.030640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.380783 seconds.
+  path: Assets/Free Voxel Christmas Pack/Materials/Christmas_Texture.mat
+  artifactKey: Guid(c2f94b3587d344f8599d77761ec33018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Materials/Christmas_Texture.mat using Guid(c2f94b3587d344f8599d77761ec33018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12d3f984574a6a52882cd922837be3f') in 0.013962 seconds 
+  Import took 0.016727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.346327 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_3.prefab
+  artifactKey: Guid(47192d21aa0f9884cb3363c33f7c3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_3.prefab using Guid(47192d21aa0f9884cb3363c33f7c3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d63b059ab445dca7f2aa5db36e1790') in 0.017245 seconds 
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_5.prefab
+  artifactKey: Guid(b13e5979a92f25747a6bf2fd24bff43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_5.prefab using Guid(b13e5979a92f25747a6bf2fd24bff43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b113b0755270f2aa2912bec34e9331ca') in 0.009548 seconds 
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_4.prefab
+  artifactKey: Guid(883fa3ab658666448b50463de46c6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_4.prefab using Guid(883fa3ab658666448b50463de46c6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209b14d6d3f8de12a609390c939d6119') in 0.008475 seconds 
+  Import took 0.010821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.126100 seconds.
+  path: Assets/Ch46_nonPBR@Left Turn.fbx
+  artifactKey: Guid(f9e0febd240904687820a93eeb781a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch46_nonPBR@Left Turn.fbx using Guid(f9e0febd240904687820a93eeb781a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd61605863e73ee1fc86384cd00e6999') in 0.295497 seconds 
+  Import took 0.300840 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:03:05.782 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019d8b60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2221ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1948ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (1137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (251ms)
+				ProcessInitializeOnLoadAttributes (834ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.70 GB.
+System memory in use after: 0.70 GB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 2.448042 ms (FindLiveObjects: 0.086042 ms CreateObjectMapping: 0.036458 ms MarkObjects: 2.302125 ms  DeleteObjects: 0.022667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:06:01.470 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019ce300 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2207ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1929ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (1118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (816ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.70 GB.
+System memory in use after: 0.70 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.319125 ms (FindLiveObjects: 0.087083 ms CreateObjectMapping: 0.037167 ms MarkObjects: 2.174875 ms  DeleteObjects: 0.019375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 330.855721 seconds.
+  path: Assets/Ch46_nonPBR@Left Turn.fbx
+  artifactKey: Guid(f9e0febd240904687820a93eeb781a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch46_nonPBR@Left Turn.fbx using Guid(f9e0febd240904687820a93eeb781a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c66af32b5ccc8a2094ee3c608dbc92e') in 0.307367 seconds 
+  Import took 0.310188 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:06:46.512 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019c9b90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2201ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1922ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 2.416875 ms (FindLiveObjects: 0.085541 ms CreateObjectMapping: 0.037834 ms MarkObjects: 2.271709 ms  DeleteObjects: 0.020958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.120371 seconds.
+  path: Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab
+  artifactKey: Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab using Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dad7bf42e73e1968c3dad5a75b6b6b8') in 0.266799 seconds 
+  Import took 0.272464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.986814 seconds.
+  path: Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab
+  artifactKey: Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab using Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'HumanoidDefault' used by the Animation component 'SantaClaus' must be marked as Legacy.
+The AnimationClip 'HumanoidDefault' used by the Animation component 'SantaClaus(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:648)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:614)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'HumanoidDefault' used by the Animation component 'SantaClaus(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:617)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '8f11b182b588ea42be1a3e5a6046d50a') in 0.081409 seconds 
+  Import took 0.086801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.729401 seconds.
+  path: Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab
+  artifactKey: Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab using Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aa115acd6521727262df3761a620d4') in 0.072209 seconds 
+  Import took 0.077513 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:09:51.708 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019c8af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2225ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1962ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 2.375709 ms (FindLiveObjects: 0.085542 ms CreateObjectMapping: 0.040500 ms MarkObjects: 2.226958 ms  DeleteObjects: 0.022083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:13:08.258 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019cb5d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2478ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2170ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (281ms)
+				ProcessInitializeOnLoadAttributes (943ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 2.426125 ms (FindLiveObjects: 0.096750 ms CreateObjectMapping: 0.037250 ms MarkObjects: 2.270750 ms  DeleteObjects: 0.020708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 369.980925 seconds.
+  path: Assets/Free Voxel Christmas Pack
+  artifactKey: Guid(c38b6504e458c476994234af42a83624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack using Guid(c38b6504e458c476994234af42a83624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c985a141b76895a6c99f465a57bc939') in 0.005943 seconds 
+  Import took 0.008246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.242262 seconds.
+  path: Assets/ZombieAnimationPackFree/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8208fd568ee2d33985b5310927ecacb9') in 0.001229 seconds 
+  Import took 0.003831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621514 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/0-idle_agressive.fbx
+  artifactKey: Guid(6ff84b2de0b0a4343b04ef9e8d358664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/0-idle_agressive.fbx using Guid(6ff84b2de0b0a4343b04ef9e8d358664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8fe5705037e9016f3f8183e99a8f70') in 0.068223 seconds 
+  Import took 0.071777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/3-great_damage_torso_front.fbx
+  artifactKey: Guid(e32fa2810c3134e43a88655493f323bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/3-great_damage_torso_front.fbx using Guid(e32fa2810c3134e43a88655493f323bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af07148ae86adcda66bb15c550e2fc9f') in 0.006912 seconds 
+  Import took 0.009624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/2-attack_inversed_horizontal_right_hand.fbx
+  artifactKey: Guid(55303e9146226f94681094c17e4235e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/2-attack_inversed_horizontal_right_hand.fbx using Guid(55303e9146226f94681094c17e4235e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df6701aa918b446de02bd1e4bcfb1fc') in 0.007260 seconds 
+  Import took 0.009861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/1-walk_chase_left.fbx
+  artifactKey: Guid(83866ae06095e2240aac0c25dbcb9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/1-walk_chase_left.fbx using Guid(83866ae06095e2240aac0c25dbcb9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecb8bdaca756b2ca6348dd94e753805') in 0.006568 seconds 
+  Import took 0.009186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/10-death_fall_backward.fbx
+  artifactKey: Guid(4c84b6795e5cce74a9c35146e05f4c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/10-death_fall_backward.fbx using Guid(4c84b6795e5cce74a9c35146e05f4c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d8540a29b3f0287d8e81c7f35e4ae0') in 0.007168 seconds 
+  Import took 0.009757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/1-walk_chase.fbx
+  artifactKey: Guid(4427ff7ccdf204f49860d80928896422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/1-walk_chase.fbx using Guid(4427ff7ccdf204f49860d80928896422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12a2a93783a9869c65171538e974ee0') in 0.007266 seconds 
+  Import took 0.009697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/1-walk_chase_right.fbx
+  artifactKey: Guid(0c0ee440147bca341bbdbfc41ab33e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/1-walk_chase_right.fbx using Guid(0c0ee440147bca341bbdbfc41ab33e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ebd750feae51fe022f7ab097827a8b') in 0.007141 seconds 
+  Import took 0.009640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.851466 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/0-idle_agressive.fbx
+  artifactKey: Guid(6ff84b2de0b0a4343b04ef9e8d358664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/0-idle_agressive.fbx using Guid(6ff84b2de0b0a4343b04ef9e8d358664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd961f56281af50a1953befbc46d7e4c') in 0.007795 seconds 
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 13:15:58.825 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019ca300 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2385ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2107ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (933ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 2.328333 ms (FindLiveObjects: 0.082333 ms CreateObjectMapping: 0.036958 ms MarkObjects: 2.187250 ms  DeleteObjects: 0.020792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.044728 seconds.
+  path: Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab
+  artifactKey: Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ergin3d/Santa Claus/Prefab/SantaClaus.prefab using Guid(c73f11c7efd75c44ba020cdfddad630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43c960d07a0c069ab2595f515c4f81d') in 0.238797 seconds 
+  Import took 0.244597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.897738 seconds.
+  path: Assets/ZombieAnimationPackFree
+  artifactKey: Guid(eaf97575f6b99447abc1321e4c7f5483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree using Guid(eaf97575f6b99447abc1321e4c7f5483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e776be547f54a2f843e40f5e70cf205') in 0.001193 seconds 
+  Import took 0.003363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.432483 seconds.
+  path: Assets/ZombieAnimationPackFree/Models
+  artifactKey: Guid(7fd43dd1f3f87554ea956b7940f0ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models using Guid(7fd43dd1f3f87554ea956b7940f0ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df4861fd50287b756bec11ad7bc5bf6') in 0.001212 seconds 
+  Import took 0.003666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.328067 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance
+  artifactKey: Guid(6c7b9ba407632d340a82a1792e781332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance using Guid(6c7b9ba407632d340a82a1792e781332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e70c6afe3c2be30223647c2cc71e2f') in 0.001386 seconds 
+  Import took 0.004290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546587 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2
+  artifactKey: Guid(38866cf8e3072bc419d7da533bb33f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2 using Guid(38866cf8e3072bc419d7da533bb33f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449e4f1efda35893fd5f85cec7fc8fd') in 0.001554 seconds 
+  Import took 0.004838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.791944 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material
+  artifactKey: Guid(f9a8b02b3da47aa4fb9e57fb41339220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material using Guid(f9a8b02b3da47aa4fb9e57fb41339220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b538f1d77dffd66e6d0e4d592962be56') in 0.001525 seconds 
+  Import took 0.004586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.268611 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2.mat
+  artifactKey: Guid(3a19134f7a6d1f1419f1e2dda797f129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2.mat using Guid(3a19134f7a6d1f1419f1e2dda797f129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38f9d2200453e78739298cee2ceb60f') in 0.198291 seconds 
+  Import took 0.201848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS.mat
+  artifactKey: Guid(336af2cf970b95f46aec26056f05da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS.mat using Guid(336af2cf970b95f46aec26056f05da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48094384caf509ed1330ca16f887893') in 0.163920 seconds 
+  Import took 0.167103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.205830 seconds.
+  path: Assets/ZombieAnimationPackFree/Animations/ZombieDemo.controller
+  artifactKey: Guid(7122db09428d8d149827cf7b2debf93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Animations/ZombieDemo.controller using Guid(7122db09428d8d149827cf7b2debf93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "0-idle_agressive" cannot be used in the State "0-idle_agressive". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+ -> (artifact id: 'b749a25f6a3bac2c0ab3d4dbba657518') in 0.071269 seconds 
+  Import took 0.076354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.916508 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.001308 seconds 
+  Import took 0.003764 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-12-05 19:37:45.243 Unity[22948:130139] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000019c8850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1754ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1516ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (882ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.79 GB.
+System memory in use after: 0.79 GB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 2.021583 ms (FindLiveObjects: 0.073125 ms CreateObjectMapping: 0.029875 ms MarkObjects: 1.893084 ms  DeleteObjects: 0.022250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
