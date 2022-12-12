@@ -853,43 +853,14 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'LeftToes'
-      : position error = 17.893782 mm\n\t'LeftEye' : position error = 12.035667 mm\n\t'Jaw'
-      : position error = 104.133781 mm\n\t'RightEye' : position error = 12.372075
-      mm\n\t'LeftThumbProximal' : position error = 19.217201 mm\n\t'LeftThumbIntermediate'
-      : position error = 8.027467 mm\n\t'LeftThumbDistal' : position error = 6.405745
-      mm\n\t'LeftIndexProximal' : position error = 10.320457 mm\n\t'LeftIndexIntermediate'
-      : position error = 12.269940 mm\n\t'LeftIndexDistal' : position error = 4.128150
-      mm\n\t'LeftMiddleProximal' : position error = 9.288467 mm\n\t'LeftMiddleIntermediate'
-      : position error = 15.136763 mm\n\t'LeftRingProximal' : position error = 15.136741
-      mm\n\t'LeftRingIntermediate' : position error = 14.219355 mm\n\t'LeftRingDistal'
-      : position error = 1.261411 mm\n\t'LeftLittleProximal' : position error = 17.315475
-      mm\n\t'LeftLittleIntermediate' : position error = 7.912377 mm\n\t'LeftLittleDistal'
-      : position error = 2.637461 mm\n\t'RightIndexProximal' : position error = 10.510921
-      mm\n\t'RightIndexIntermediate' : position error = 13.330923 mm\n\t'RightIndexDistal'
-      : position error = 4.229971 mm\n\t'RightMiddleProximal' : position error =
-      9.229077 mm\n\t'RightMiddleIntermediate' : position error = 15.125465 mm\n\t'RightMiddleDistal'
-      : position error = 1.153656 mm\n\t'RightRingProximal' : position error = 13.587296
-      mm\n\t'RightRingIntermediate' : position error = 13.202690 mm\n\t'RightRingDistal'
-      : position error = 1.922713 mm\n\t'RightLittleProximal' : position error =
-      17.304621 mm\n\t'RightLittleIntermediate' : position error = 8.716391 mm\n\t'RightLittleDistal'
-      : position error = 3.204602 mm\n\t'RightThumbProximal' : position error = 16.897793
-      mm\n\t'RightThumbIntermediate' : position error = 5.933580 mm\n\t'RightThumbDistal'
-      : position error = 6.062631 mm\n\t'RightToes' : position error = 17.893711
-      mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Story clip export' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'LeftLowerLeg' has translation animation
-      that will be discarded.\n\t'LeftLowerArm' has translation animation that will
-      be discarded.\n\t'RightLowerArm' has translation animation that will be discarded.\n\t'RightLowerLeg'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -1302,9 +1273,9 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 1
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
